@@ -6,7 +6,7 @@ let lang =[
     while(lang.length <= 2){
         return [lang];
     for (let i = 0; i <= lang.length; i++){
-        console.log(lang[i]);
+        return(lang[i]);
     }
 }
-console.log(lang);
+console.log(lang)
