@@ -1,6 +1,8 @@
-#!/usr/bin/node
 function add(num1, num2){
-return num1 + num2;
+result =num1 + num2;
+
+return (result)
 
 }
-console.log(add(num1, num2));
+
+console.log(add( ));
