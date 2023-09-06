@@ -1,8 +1,7 @@
 function add(num1, num2){
-result =num1 + num2;
+add = num1 + num2;
 
-return (result)
-
+return (add);
 }
 
-console.log(add( ));
+console.log(add());
