@@ -1,1 +1,5 @@
-class Rectangle {}
+class Rectangle {
+    constructor (height, width){
+        
+    }
+}
