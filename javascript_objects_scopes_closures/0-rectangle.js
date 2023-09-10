@@ -1,1 +1,1 @@
-let Rectangle ={}
+class Rectangle {}
