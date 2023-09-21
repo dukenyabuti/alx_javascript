@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Cookies</title>
+</head>
+<body>
+</body>
+<h1> Login to the website</h1>
+<input type="Firstname" placeholder="Firstname">
+<input type="email" placeholder="Email">
+<button>Log me in</button>
+<h2>Cookies</h2>
+<button>Show Cookies</button>
+<div id="dv1">
+    <p id="p1"></p>
+</div>
+<script>
+    function setCookies(){
+        document.cookie = "Firstname"
+    document.cookie = "Email"
+    }
+
+    function showCookies(){
+        const para = document.createElement("p");
+        const node = document.createTextNode("this is new paragraph");
+        para.appendChild(node);
+
+        const Element = document.getElementById("div1");
+        element.appendChild(para);
+
+
+    }
+
+</script>
+</html>
